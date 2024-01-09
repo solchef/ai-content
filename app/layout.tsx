@@ -23,7 +23,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="max-w-2xl mx-auto py-10 px-4">
+          {/* <div className="max-w-2xl mx-auto py-10 px-4"> */}
             {/* <header>
               <div className="flex items-center justify-between">
                 <ModeToggle />
@@ -568,7 +568,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                       Advertisement
                     </a>
                     <a href="#">
-                      <img src="src/img/ads/ads_728.jpg" alt="advertisement area" />
+                      <img src="img/ads/ads_728.jpg" alt="advertisement area" />
                     </a>
                   </div>
                 </div>
@@ -772,7 +772,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img6.jpg"
+                  src="img/dummy/img6.jpg"
                   alt="alt title"
                 />
               </a>
@@ -798,7 +798,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img7.jpg"
+                  src="img/dummy/img7.jpg"
                   alt="alt title"
                 />
               </a>
@@ -824,7 +824,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img8.jpg"
+                  src="img/dummy/img8.jpg"
                   alt="alt title"
                 />
               </a>
@@ -850,7 +850,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img9.jpg"
+                  src="img/dummy/img9.jpg"
                   alt="alt title"
                 />
               </a>
@@ -876,7 +876,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img10.jpg"
+                  src="img/dummy/img10.jpg"
                   alt="alt title"
                 />
               </a>
@@ -902,7 +902,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="">
                 <img
                   className="max-w-full w-full mx-auto"
-                  src="src/img/dummy/img11.jpg"
+                  src="img/dummy/img11.jpg"
                   alt="alt title"
                 />
               </a>
@@ -936,7 +936,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="#">
                 <img
                   className="mx-auto"
-                  src="src/img/ads/250.jpg"
+                  src="img/ads/250.jpg"
                   alt="advertisement area"
                 />
               </a>
@@ -952,7 +952,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 <div
     className="relative bg-gray-50"
     style={{
-      backgroundImage: 'url("src/img/bg.jpg")',
+      backgroundImage: 'url("img/bg.jpg")',
       backgroundSize: "cover",
       backgroundPosition: "center center",
       backgroundAttachment: "fixed"
@@ -977,7 +977,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img14.jpg"
+                            src="img/dummy/img14.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1001,7 +1001,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img15.jpg"
+                            src="img/dummy/img15.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1025,7 +1025,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img16.jpg"
+                            src="img/dummy/img16.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1049,7 +1049,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img17.jpg"
+                            src="img/dummy/img17.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1073,7 +1073,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img18.jpg"
+                            src="img/dummy/img18.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1097,7 +1097,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <a href="">
                           <img
                             className="max-w-full w-full mx-auto"
-                            src="src/img/dummy/img1.jpg"
+                            src="img/dummy/img1.jpg"
                             alt="alt title"
                           />
                         </a>
@@ -1142,7 +1142,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="#">
                   <img
                     className="max-w-full w-full mx-auto h-auto"
-                    src="src/img/dummy/img2.jpg"
+                    src="img/dummy/img2.jpg"
                     alt="Image description"
                   />
                 </a>
@@ -1174,7 +1174,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img27.jpg"
+                    src="img/dummy/img27.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1200,7 +1200,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img3.jpg"
+                    src="img/dummy/img3.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1226,7 +1226,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img4.jpg"
+                    src="img/dummy/img4.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1252,7 +1252,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img5.jpg"
+                    src="img/dummy/img5.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1278,7 +1278,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img6.jpg"
+                    src="img/dummy/img6.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1304,7 +1304,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img7.jpg"
+                    src="img/dummy/img7.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1386,7 +1386,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="#">
                 <img
                   className="mx-auto"
-                  src="src/img/ads/250.jpg"
+                  src="img/ads/250.jpg"
                   alt="advertisement area"
                 />
               </a>
@@ -1415,7 +1415,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="#">
                   <img
                     className="max-w-full w-full mx-auto h-auto"
-                    src="src/img/dummy/img15.jpg"
+                    src="img/dummy/img15.jpg"
                     alt="Image description"
                   />
                 </a>
@@ -1447,7 +1447,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img24.jpg"
+                    src="img/dummy/img24.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1473,7 +1473,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img7.jpg"
+                    src="img/dummy/img7.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1499,7 +1499,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img17.jpg"
+                    src="img/dummy/img17.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1525,7 +1525,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img25.jpg"
+                    src="img/dummy/img25.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1551,7 +1551,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img12.jpg"
+                    src="img/dummy/img12.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1577,7 +1577,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <a href="">
                   <img
                     className="max-w-full w-full mx-auto"
-                    src="src/img/dummy/img8.jpg"
+                    src="img/dummy/img8.jpg"
                     alt="alt title"
                   />
                 </a>
@@ -1659,7 +1659,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <a href="#">
                 <img
                   className="mx-auto"
-                  src="src/img/ads/250.jpg"
+                  src="img/ads/250.jpg"
                   alt="advertisement area"
                 />
               </a>
@@ -1670,7 +1670,15 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </div>
   </div>
 
-  {/* =========={ FOOTER }==========  */}
+
+
+
+  
+              {children}
+
+            </main>
+
+              {/* =========={ FOOTER }==========  */}
   <footer className="bg-black text-gray-400">
     {/*Footer content*/}
     <div id="footer-content" className="relative pt-8 xl:pt-16 pb-6 xl:pb-12">
@@ -1681,7 +1689,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <span className="text-3xl leading-normal mb-2 font-bold text-gray-100 mt-2">
                 TailNews
               </span>
-              {/* <img src="src/img-min/logo.png" alt="LOGO"> */}
+              {/* <img src="img-min/logo.png" alt="LOGO"> */}
             </div>
             <p>
               Tailwind News Template for build great newspapper, magazine and
@@ -1918,12 +1926,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </svg>
   </a>
 
-  
-  
-              {children}
-
-            </main>
-          </div>
           <Analytics />
         </ThemeProvider>
       </body>
